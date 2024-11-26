@@ -1,0 +1,69 @@
+C:\Users\Vidhyasagar\Documents\git folder\ptg1>cd C:\Users\Vidhyasagar\Documents\ptg2
+
+C:\Users\Vidhyasagar\Documents\ptg2>git clone https://github.com/Vidhyasagar01/Myrep.git
+Cloning into 'Myrep'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+C:\Users\Vidhyasagar\Documents\ptg2>cd C:\Users\Vidhyasagar\Documents\ptg2\Myrep
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>git add .
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep> git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>git commit -m "first line"
+[main 08d4564] first line
+ 1 file changed, 22 insertions(+)
+ create mode 100644 hi.cpp.txt
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>git add .
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep> git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 608 bytes | 608.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Vidhyasagar01/Myrep.git
+   6c7bcae..08d4564  main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>commit -m "second line"
+'commit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>git commit -m "Second line"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hi.cpp.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>git add .
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>git commit -m "second"
+[main 885eabe] second
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Vidhyasagar01/Myrep.git
+   08d4564..885eabe  main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Vidhyasagar\Documents\ptg2\Myrep>
